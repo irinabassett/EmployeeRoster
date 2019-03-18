@@ -13,7 +13,7 @@ namespace EmployeeRoster.Models
     {
         public int EmploymentID { get; set; }
         public int PositionID { get; set; }
-        public int EmployeetID { get; set; }
+        public int EmployeeID { get; set; }
         public EvalScore? EvalScore { get; set; }
 
         public virtual Position Course { get; set; }
