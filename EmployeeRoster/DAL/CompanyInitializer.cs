@@ -7,7 +7,7 @@ using EmployeeRoster.Models;
 
 namespace EmployeeRoster.DAL
 {
-    public class CompanyInitializer : System.Data.Entity.DropCreateDatabaseAlways<CompanyContext>
+    public class CompanyInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<CompanyContext>
     {
         protected override void Seed(CompanyContext context)
         {
