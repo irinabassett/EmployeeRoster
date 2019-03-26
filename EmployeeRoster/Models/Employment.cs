@@ -5,7 +5,7 @@ using System.Web;
 
 namespace EmployeeRoster.Models
 {
-    public enum EvalScore
+    public enum EvalScore  
     {
         A, B, C, D, E
     }

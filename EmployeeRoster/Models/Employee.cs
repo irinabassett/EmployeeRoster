@@ -14,6 +14,8 @@ namespace EmployeeRoster.Models
         public DateTime HireDate { get; set; }
 
         public virtual ICollection<Employment> Employments { get; set; }
+
+        // Position <-> Employment <-> Employee relationship
     }
 }
 

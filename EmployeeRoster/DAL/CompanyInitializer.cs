@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Data.Entity;
 using EmployeeRoster.Models;
 
 namespace EmployeeRoster.DAL
+
+// Database dropped and re-created whenever the model changes.
 {
     public class CompanyInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<CompanyContext>
     {
         protected override void Seed(CompanyContext context)
+
+        // The code creates a collection of new entities, adds them to the appropriate DbSet property, and then saves the changes to the database.
         {
             var employees = new List<Employee>
             {

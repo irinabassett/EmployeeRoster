@@ -14,6 +14,8 @@ namespace EmployeeRoster.DAL
         {
         }
 
+        // Create DbSet property for each entity
+
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Employment> Employments { get; set; }
         public DbSet<Position> Positions { get; set; }

@@ -14,6 +14,8 @@ namespace EmployeeRoster.Models
         public string Department { get; set; }
 
         public virtual ICollection<Employment> Employments { get; set; }
+
+        // Position <-> Employment <-> Employee relationship
     }
 }
 
