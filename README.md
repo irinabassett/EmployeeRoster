@@ -12,4 +12,5 @@
 - Enum EvalScore is also not currently utilized but will be used at performance reviews. 
 
 ## Instructions
+- Open EmployeeRoster.sln file in Visual Studio and click Run. 
 - If styles are not working in the browser reload with F5, Ctrl+r, or Command+r. It did the trick for me. :-)
