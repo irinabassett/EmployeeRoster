@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 
 namespace EmployeeRoster.Models
+
+    // This enum is not currently utilized.
 {
     public enum EvalScore  
     {
@@ -16,7 +18,7 @@ namespace EmployeeRoster.Models
         public int EmployeeID { get; set; }
         public EvalScore? EvalScore { get; set; }
 
-        public virtual Position Course { get; set; }
-        public virtual Employee Student { get; set; }
+        public virtual Position Position { get; set; }
+        public virtual Employee Employee { get; set; }
     }
 }

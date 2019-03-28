@@ -4,7 +4,7 @@ using EmployeeRoster.Models;
 
 namespace EmployeeRoster.DAL
 
-// Database dropped and re-created whenever the model changes.
+    // Database dropped and re-created whenever the model changes.
 {
     public class CompanyInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<CompanyContext>
     {
@@ -36,6 +36,8 @@ namespace EmployeeRoster.DAL
 
             employees.ForEach(s => context.Employees.Add(s));
             context.SaveChanges();
+
+            // This variable is not currently utilized. 
 
             var positions = new List<Position>
             {

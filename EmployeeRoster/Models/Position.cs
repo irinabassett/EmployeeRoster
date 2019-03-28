@@ -5,6 +5,8 @@ using System.Web;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EmployeeRoster.Models
+
+    // This class is not currently utilized.
 {
     public class Position
     {
